@@ -9,7 +9,7 @@
 body {
   display: block;
 }
-title{
+title {
   display: none;
 }
 
@@ -195,19 +195,16 @@ footer {
 }
 
 .about {
-  
   flex-grow: 1;
   flex-basis: 100%;
 }
 
 .services {
-  
   flex-grow: 1;
   flex-basis: 70%;
 }
 
 .contact {
-  
   flex-grow: 1;
   flex-basis: 100%;
   text-align: justify;
@@ -252,7 +249,6 @@ footer {
   width: 100%;
   min-height: 10vh;
   background-color: #f4f4ef;
-  max-width: 1440px;
   display: flex;
   justify-content: center;
   padding: 0px 90px;
@@ -271,8 +267,13 @@ footer {
 
 .vision-content .card {
   flex: 1;
+  justify-content: flex-start;
   margin: 20px 20px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  height: 480px;
+  width: 380px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .vision-content .card h2 {
@@ -280,6 +281,10 @@ footer {
   font-size: 28px;
   color: #1662a1;
   font-family: "Times New Roman", Times, serif;
+}
+
+.vision-content.card.card-content {
+  height: 280px;
 }
 
 .vision-content .card p {
