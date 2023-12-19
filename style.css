@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: grid;
-  place-content: center;
+  /* display: grid;
+  place-content: center; */
 }
 
 body {
@@ -79,12 +79,15 @@ title {
 .navbar li a {
   text-decoration: none;
   color: white;
+  
   height: 50px;
   background: #202040;
   text-align: center;
   padding: 14px 16px;
-  display: inline-block;
+  display: block;
   border: 1px solid transparent;
+ 
+  
 }
 
 .navbar ul li a:hover {
@@ -95,6 +98,7 @@ title {
 
 .dropdown-trigger {
   position: relative;
+  
 }
 #dropdown-content {
   display: none;
