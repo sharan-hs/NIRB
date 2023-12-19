@@ -6,13 +6,14 @@
 :root{
     --primarycolor: #F1F0E8;
     --secondarycolor: #D6E8DB;
+    --lightcolor: #FFF2D8;
   }
 /* Vision and mission styling */
 
 .vision-container {
     width: 100%;
     min-height: 10vh;
-    /* background-color: #f4f4ef; */
+    
     background-color: #E1C78F;
     display: flex;
     justify-content: center;
@@ -23,6 +24,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+     
   }
   
   .vision-content .card img {
@@ -35,7 +37,7 @@
     flex: 1;
     justify-content: flex-start;
     margin: 20px 20px;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 480px;
     width: 380px;
     border-radius: 4px;
@@ -93,13 +95,13 @@
     width: 80%;
     list-style-type: none;
     border: 1px solid black;
-    margin: auto;
+    margin: 10px auto 0px;
     text-align: left;
     line-height: 1.5rem;
     color: black;
     padding: 18px 50px;
     font-size: 30px;
-    
+    border-radius: 8px;
   }
 
 .bg-fill{
@@ -110,9 +112,10 @@
 /* Infrastructure page styling */
 
 .infra-desc{
-    font-size: 22px;
+    font-size: 26px;
     padding: 20px 40px;
     text-align: left;
+    line-height: 1.5em;
 }
 
 .flex-container{
@@ -121,15 +124,27 @@
     margin: 20px;
     border: 2.5px solid black;
     border-radius: 12px;
+    background-color: #FFF2D8;
 }
 
 .flex-container img{
     border-right:2px solid black ;
-    padding: 10px;
+    /* padding: 10px; */
     width: 30%;
+    /* border-radius: 12px; */
 }
 
 .bg-fill2{
     height: 20px;
     background-color: #E1C78F;
+}
+
+/* Future and finances page styling */
+
+.text-container{
+  width: 90vw;
+  margin: 30px auto 0px;
+  border: 2px solid black;
+  background-color: var(--lightcolor);
+  border-radius: 10px;
 }
