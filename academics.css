@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.faculty-container{
+    width: 50vw;
+    color: black;
+    background-color: #ecdbb7;
+    margin: 10px auto 0px;
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 1.5em;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.faculty-container h3{
+    
+    font-size: 24px;
+    padding: 10px;
+}
+
+.faculty li {
+    font-size: 20px;
+    list-style-type: disc;
+    border: none;
+    margin: 20px 2px;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 14px;
+    
+}
+
+.director li {
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    border: none;
+    margin: 20px;
+}
+
+.pac-list li{
+    text-align: left;
+    font-size: 24px;
+}
+
+.design{
+    margin-bottom: 0px;
+}
+
+/* education page design */
+
+.education{
+    width: 80vw;
+    padding: 20px;
+    margin: 20px auto 0px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #FFF2D8;
+}
+
+.education h4{
+    padding: 0px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.education p{
+    font-size: 20px;
+    padding: 20px 10px;
+    line-height: 2rem;
+}
+
+.education .exam{
+    
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.education-list li{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* International visits page styling */
+
+.international{
+    width: 80vw;
+    background-color: red;
+    background-color: #FFF2D8;
+    margin: 20px auto 0px;
+    border: 2px solid black;
+    border-radius: 18px;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primarycolor: #F1F0E8;
+    --secondarycolor: #D6E8DB;
+  }
+/* Vision and mission styling */
+
+.vision-container {
+    width: 100%;
+    min-height: 10vh;
+    /* background-color: #f4f4ef; */
+    background-color: #E1C78F;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .vision-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .vision-content .card img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .vision-content .card {
+    background-color: #f4f4ef;
+    flex: 1;
+    justify-content: flex-start;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    height: 480px;
+    width: 380px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .vision-content .card h2 {
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #1662a1;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .vision-content.card.card-content {
+    height: 280px;
+  }
+  
+  .vision-content .card p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /* Management and Client Page Styling */
+
+.sub-page{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #E1C78F;
+   
+}
+
+.sub-page-title{
+    text-decoration: underline ;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .sub-page-desc{
+    margin: 20px;
+    padding: 5px 40px;
+    font-size: 24px;
+    line-height: 2.5rem;
+    font-weight: 400;
+  }
+
+  .sub-page li{
+    background-color: #FFF2D8;
+    width: 80%;
+    list-style-type: none;
+    border: 1px solid black;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5rem;
+    color: black;
+    padding: 18px 50px;
+    font-size: 30px;
+    
+  }
+
+.bg-fill{
+    height: 40px;
+    background-color: #E1C78F;
+}
+  
+/* Infrastructure page styling */
+
+.infra-desc{
+    font-size: 22px;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 2.5px solid black;
+    border-radius: 12px;
+}
+
+.flex-container img{
+    border-right:2px solid black ;
+    padding: 10px;
+    width: 30%;
+}
+
+.bg-fill2{
+    height: 20px;
+    background-color: #E1C78F;
+}
